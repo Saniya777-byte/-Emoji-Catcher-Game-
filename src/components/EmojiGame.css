@@ -150,6 +150,17 @@ body, html{
     transform: scale(1.08);
 }
 
+@keyframes slideIn{
+    from{
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 
 .game-message {
     position: fixed;
